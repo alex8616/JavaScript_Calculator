@@ -1,0 +1,147 @@
+#app {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    position: relative;
+}
+body {
+  background: white;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.calculator {
+  border: 2px solid #47476b;
+  padding: 5px;
+  font-weight:600;
+  background: black;
+  width: 320px;
+  position: relative;
+  border-radius: 2%;
+}
+
+.formulaScreen {
+  min-height: 30px;
+  font-family: digital;
+  font-size: 20px;
+  font-weight:600;
+  color: black;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  background-color: #BBDEFB;
+  border-style: solid;
+}
+
+.outputScreen {
+  font-size: 29px;
+  font-family: digital;
+  color: black;
+  text-align: right;
+  line-height: 35px;
+  background-color: #BBDEFB;
+  border-style: solid;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: black;
+  outline: 1px solid black;
+  border: none;
+  background: button;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+}
+
+.jumbo {
+  width: 160px;
+}
+
+.author {
+  text-align: center;
+  font-family: Share Tech Mono, sans;
+  margin-top: 15px;
+}
+
+#seven,#four,#one,#zero,#eight,#five,#two,#decimal,#nine,
+#six,#three,#equals{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-weight:900;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #81c983; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+#seven:hover,#four:hover,#one:hover,#zero:hover,#eight:hover,#five:hover,#two:hover,#decimal:hover,#nine:hover,
+#six:hover,#three:hover,#equals:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+#add,#subtract,#multiply,#divide{
+    background-color: #BDBDBD; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight:600;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black; 
+    border: 2px solid gray;
+}
+
+#add:hover,#subtract:hover,#multiply:hover,#divide:hover{
+    background-color: gray;
+    color: white;
+}
+#clear{
+    background-color: #ffa2ab; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight:600;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black; 
+    border: 2px solid red;
+}
+#clear:hover{
+    background-color: red;
+    color: white;
+}
+
+#equals{
+    background-color: #4c5ec5; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight:600;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black; 
+    border: 2px solid blue;
+}
+#equals:hover{
+    background-color: blue;
+    color: white;
+}
